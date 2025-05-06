@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+/* #Debug variables */
+    --ly-debug-header-light-bg-color:#B6D7E4;
+    --ly-debug-header-contrast-bg-color:#D2A741;
+    --ly-debug-block1-dark-bg-color:#000085;
+    --ly-debug-block_odd-light-bg-color:#FFFFFF;
+    --ly-debug-col1-bg-color:#458EF7;
+    --ly-debug-col2-bg-color:#F5C3CB;
+    --ly-debug-block_even-bg-color: #D3D3D3;
+    --ly-debug-contrast-color: #458933;
+    --ly-debug-footer-dark-bg-color: #24272A;
+    --ly-debug-footer-col1-bg-color: #E18683;
+    --ly-debug-footer-col2-bg-color: #55AFA9;
+    --ly-debug-footer-col3-bg-color: #A0FCD6;
+    --ly-debug-footer-btn-bg-color: #F4B9C2;
+}
+
