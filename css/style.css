@@ -25,11 +25,11 @@
 
 /* #region debug */
 .debug {
-    .debug-brd1 {
+    .debug-brd1 > * {
         border: 1px dashed black;
     }
 
-    .debug-brd2 {
+    .debug-brd2 > * {
         border: 1px dashed white;
     }
 
