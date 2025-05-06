@@ -29,29 +29,29 @@
     }
 
 #site-header {
-        background-color: var(--ly-debug-header-light-bg-color);
-    }
-
-#header-content {
-        background-color: var(--ly-debug-header-contrast-bg-color);
-    }
-
-#section1 {
-        background-color: var(--ly-debug-block1-dark-bg-color);
-        height: 300px;
-    }
-
-#section2 {
-        background-color: var(--ly-debug-block_odd-light-bg-color);
-        height: 400px;
-    }
-
-#col2-1 {
-    background-color: var(--ly-debug-col1-bg-color);
+    background-color: var(--ly-debug-header-light-bg-color);
 }
 
-#col2-2 {
-    background-color: var(--ly-debug-col2-bg-color);
+#header-content {
+    background-color: var(--ly-debug-header-contrast-bg-color);
+}
+
+#section1 {
+    background-color: var(--ly-debug-block1-dark-bg-color);
+    height: 300px;
+}
+
+#section2 {
+    background-color: var(--ly-debug-block_odd-light-bg-color);
+    height: 400px;
+}
+
+.dark-col {
+    background-color: var(--ly-debug-col1-bg-color)
+}
+
+.light-col {
+    background-color: var(--ly-debug-col2-bg-color)
 }
 
 #section3 {
@@ -59,25 +59,9 @@
     height: 400px;
 }
 
-#col3-1 {
-    background-color: var(--ly-debug-col2-bg-color);
-}
-
-#col3-2 {
-    background-color: var(--ly-debug-col1-bg-color);
-}
-
 #section4 {
     background-color: var(--ly-debug-block_odd-light-bg-color);
     height: 400px;
-}
-
-#col4-1 {
-    background-color: var(--ly-debug-col1-bg-color);
-}
-
-#col4-2 {
-    background-color: var(--ly-debug-col2-bg-color);
 }
 
 #jumbotron {
@@ -153,32 +137,12 @@ aside {
     height: 90%;
 }
 
-#col2-1 {
+.lrg-col {
     width: 70%;
     height: 100%;
 }
 
-#col2-2 {
+.nrw-col {
     width: 30%;
-    height:100%;
-}
-
-#col3-1 {
-    width: 70%;
-    height: 100%;
-}
-
-#col3-2 {
-    width: 30%;
-    height:100%;
-}
-
-#col4-1 {
-    width: 30%;
-    height: 100%;
-}
-
-#col4-2 {
-    width: 70%;
     height:100%;
 }
