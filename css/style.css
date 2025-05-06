@@ -23,50 +23,88 @@
 }
 
 /* #region debug */
-.debug {
+.debug
     * {
         border: 1px dashed black;
     }
 
-    #site-header {
+#site-header {
         background-color: var(--ly-debug-header-light-bg-color);
     }
 
-    #header-content {
+#header-content {
         background-color: var(--ly-debug-header-contrast-bg-color);
     }
 
-    #section1 {
+#section1 {
         background-color: var(--ly-debug-block1-dark-bg-color);
         height: 300px;
     }
 
-    #jumbotron {
-        background-color: var(--ly-debug-block1-contrast-bg-color);
-    }
-    .sidebar {
-        background-color: var(--ly-debug-sidebar-bg-color);
-    }
-    
-    main {
-        background-color: var(--ly-debug-main-bg-color);
-    }
-    
-    aside {
-        background-color: var(--ly-debug-aside-bg-color);
+#section2 {
+        background-color: var(--ly-debug-block_odd-light-bg-color);
+        height: 400px;
     }
 
-    #site_footer {
-        background-color: var(--ly-debug-footer-bg-color);
-        min-height: 70px;
+#col2-1 {
+    background-color: var(--ly-debug-col1-bg-color);
+}
+
+#col2-2 {
+    background-color: var(--ly-debug-col2-bg-color);
+}
+
+#section3 {
+    background-color: var(--ly-debug-block_even-bg-color);
+    height: 400px;
+}
+
+#col3-1 {
+    background-color: var(--ly-debug-col2-bg-color);
+}
+
+#col3-2 {
+    background-color: var(--ly-debug-col1-bg-color);
+}
+
+#section4 {
+    background-color: var(--ly-debug-block_odd-light-bg-color);
+    height: 400px;
+}
+
+#col4-1 {
+    background-color: var(--ly-debug-col1-bg-color);
+}
+
+#col4-2 {
+    background-color: var(--ly-debug-col2-bg-color);
+}
+
+#jumbotron {
+        background-color: var(--ly-debug-block1-contrast-bg-color);
     }
+
+.sidebar {
+    background-color: var(--ly-debug-sidebar-bg-color);
+}
+    
+main {
+    background-color: var(--ly-debug-main-bg-color);
+}
+    
+aside {
+    background-color: var(--ly-debug-aside-bg-color);
+}
+
+#site_footer {
+    background-color: var(--ly-debug-footer-bg-color);
+    min-height: 70px;
 }
 /* #endregion debug */
 
 .container {
     display: flex;
-    width: 70%;
-    margin: 0 auto;
+    align-items: center;
 }
 
 #logo {
@@ -87,19 +125,60 @@
 }
 
 #site-header {
-    display: flex;
-    align-items: center;
     min-height: 70px;
 }
 
+#header-content {
+    width: 70%;
+    margin: 0 auto;
+}
+
 #section1 {
-    display: flex;
-    align-items: center;
+    width: 100%;
+}
+
+#section2 {
     width: 100%;
 }
 
 #jumbotron {
     margin: 0 auto;
     width: 50%;
-    height: 85%
+    height: 85%;
+}
+
+.db-col {
+    width: 70%;
+    margin: 0 auto;
+    height: 90%;
+}
+
+#col2-1 {
+    width: 70%;
+    height: 100%;
+}
+
+#col2-2 {
+    width: 30%;
+    height:100%;
+}
+
+#col3-1 {
+    width: 70%;
+    height: 100%;
+}
+
+#col3-2 {
+    width: 30%;
+    height:100%;
+}
+
+#col4-1 {
+    width: 30%;
+    height: 100%;
+}
+
+#col4-2 {
+    width: 70%;
+    height:100%;
 }
