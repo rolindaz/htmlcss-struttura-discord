@@ -38,6 +38,7 @@
 
     #section1 {
         background-color: var(--ly-debug-block1-dark-bg-color);
+        height: 300px;
     }
 
     #jumbotron {
@@ -92,9 +93,13 @@
 }
 
 #section1 {
-    min-height: 300px;
+    display: flex;
+    align-items: center;
+    width: 100%;
 }
 
 #jumbotron {
-    min-height: ;
+    margin: 0 auto;
+    width: 50%;
+    height: 85%
 }
