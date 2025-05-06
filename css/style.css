@@ -9,6 +9,7 @@
     --ly-debug-header-light-bg-color:#B6D7E4;
     --ly-debug-header-contrast-bg-color:#D2A741;
     --ly-debug-block1-dark-bg-color:#000085;
+    --ly-debug-block1-contrast-bg-color:#E087E8;
     --ly-debug-block_odd-light-bg-color:#FFFFFF;
     --ly-debug-col1-bg-color:#458EF7;
     --ly-debug-col2-bg-color:#F5C3CB;
@@ -27,25 +28,21 @@
         border: 1px dashed black;
     }
 
-    #site_header {
-        display: flex;
-        align-items: center;
+    #site-header {
         background-color: var(--ly-debug-header-light-bg-color);
-        min-height: 50px;
     }
 
     #header-content {
-        display: flex;
         background-color: var(--ly-debug-header-contrast-bg-color);
-        width: 70%;
-        margin: 0 auto;
     }
 
-    #site_content {
-        background-color: var(--ly-debug-content-bg-color);
-        min-height: 200px;
+    #section1 {
+        background-color: var(--ly-debug-block1-dark-bg-color);
     }
 
+    #jumbotron {
+        background-color: var(--ly-debug-block1-contrast-bg-color);
+    }
     .sidebar {
         background-color: var(--ly-debug-sidebar-bg-color);
     }
@@ -65,18 +62,39 @@
 }
 /* #endregion debug */
 
+.container {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+}
+
 #logo {
-    padding-left: 0.5em;
+    padding: 0.5em;
     width: 20%;
 }
 
 #nav {
+    padding: 0.5em;
     text-align: center;
     width: 60%;
 }
 
 #login {
-    padding-right: 0.5em;
+    padding: 0.5em;
     text-align: end;
     width: 20%;
+}
+
+#site-header {
+    display: flex;
+    align-items: center;
+    min-height: 70px;
+}
+
+#section1 {
+    min-height: 300px;
+}
+
+#jumbotron {
+    min-height: ;
 }
