@@ -21,3 +21,62 @@
     --ly-debug-footer-btn-bg-color: #F4B9C2;
 }
 
+/* #region debug */
+.debug {
+    * {
+        border: 1px dashed black;
+    }
+
+    #site_header {
+        display: flex;
+        align-items: center;
+        background-color: var(--ly-debug-header-light-bg-color);
+        min-height: 50px;
+    }
+
+    #header-content {
+        display: flex;
+        background-color: var(--ly-debug-header-contrast-bg-color);
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    #site_content {
+        background-color: var(--ly-debug-content-bg-color);
+        min-height: 200px;
+    }
+
+    .sidebar {
+        background-color: var(--ly-debug-sidebar-bg-color);
+    }
+    
+    main {
+        background-color: var(--ly-debug-main-bg-color);
+    }
+    
+    aside {
+        background-color: var(--ly-debug-aside-bg-color);
+    }
+
+    #site_footer {
+        background-color: var(--ly-debug-footer-bg-color);
+        min-height: 70px;
+    }
+}
+/* #endregion debug */
+
+#logo {
+    padding-left: 0.5em;
+    width: 20%;
+}
+
+#nav {
+    text-align: center;
+    width: 60%;
+}
+
+#login {
+    padding-right: 0.5em;
+    text-align: end;
+    width: 20%;
+}
